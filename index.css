@@ -1,0 +1,47 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.child {
+    height: auto;
+    width: 45%;
+    box-shadow: 0px 0px 9px -3px black;
+}
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    padding-bottom : 3%;
+}
+
+.field-name {
+    padding: 3% 5%;
+    color: grey;
+    font-family: ui-sans-serif;
+    font-size: 19px;
+}
+
+.field-error {
+    padding: 2% 0% 0% 5%;
+    color: red;
+    font-family: ui-sans-serif;
+    font-size: 14px;
+}
+
+.button-submit {
+    height: 8%;
+    width: 82%;
+    margin: 6%;
+    background-color: #1592df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
